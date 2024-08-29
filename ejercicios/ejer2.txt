@@ -1,0 +1,7 @@
+¿Cómo se podría mejorar este diseño para incluir otros tipos de vehículos?
+Para incluir otros tipos de vehículos, se podría usar una jerarquía más flexible, por ejemplo
+implementando una clase base abstracta Vehiculo con métodos abstractos que definan 
+comportamientos comunes, lo que permitiría la creación de vehículos específicos sin modificar 
+la estructura general del código. Además, se podría implementar una fábrica de vehículos 
+(VehicleFactory) para crear instancias de distintos tipos de vehículos de manera más dinámica 
+y centralizada.
